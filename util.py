@@ -1,3 +1,11 @@
+'''
+ # @ Author: Veenay
+ # @ Create Time: 2021-08-20 20:55:24
+ # @ Modified by: Veenay
+ # @ Modified time: 2021-08-20 21:07:22
+ '''
+
+
 import pickle
 import json
 import numpy as np
@@ -34,7 +42,7 @@ def load_saved_artifacts():
 
     global __model
     if __model is None:
-        with open('./artifacts/banglore_home_prices_model.pickle', 'rb') as f: # open binary format for reading
+        with open('./artifacts/bangalore_home_prices_model.pickle', 'rb') as f: # open binary format for reading
             __model = pickle.load(f) # load pickle file and store in model variable
     print("loading saved artifacts...done")
 

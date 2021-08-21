@@ -1,21 +1,27 @@
+<!--
+ * @ Author: Veenay
+ * @ Create Time: 2021-08-20 20:55:24
+ * @ Modified by: Veenay
+ * @ Modified time: 2021-08-21 09:30:00
+ -->
+
+
 <!DOCTYPE html>
 <html>
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<title>Banglore Home Price Prediction</title>
+	<title>Bangalore Home Price Prediction</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- <script src="app.js"></script> -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='styles/app.css') }}">
-	<!-- <link rel="stylesheet" href="C:\Veenayagam Things\ML-things\Flask\combine\Mine\server\static\styles\app.css"> -->
 </head>
 
 <body>
 	<div class="img"></div>
 	<form class="form" action="/" method="POST">
 		<h2>Area (Square Feet)</h2>
-		<input class="area" type="text"class="floatLabel" name="uiSqft" value="1000" required>
+		<input class="area" type="number"class="floatLabel" name="uiSqft" value="1000" required>
 		<h2>BHK</h2>
 		<div>
 			<select class="location" name="radio_bhk" id="radio_bhk" required>

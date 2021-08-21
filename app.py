@@ -1,3 +1,11 @@
+'''
+ # @ Author: Veenay
+ # @ Create Time: 2021-08-20 20:55:24
+ # @ Modified by: Veenay
+ # @ Modified time: 2021-08-20 21:05:47
+ '''
+
+
 from flask import Flask, request , render_template
 import util
 
@@ -19,7 +27,7 @@ def predict_home_price():
         }
         for key in list:
                 lists = list[key]
-                lists = str(lists) + "Lakh"
+                lists = str(lists) + " Lakh"
         
         response = {
             'locations': util.get_location_names()

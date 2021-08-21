@@ -1,3 +1,11 @@
+/**
+ * @ Author: Veenay
+ * @ Create Time: 2021-08-20 20:55:24
+ * @ Modified by: Veenay
+ * @ Modified time: 2021-08-21 09:25:53
+ */
+
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .switch-field {
@@ -111,7 +119,7 @@ h2 {
 }
 
 .img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background: url('https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
 	background-repeat: no-repeat;
   background-size: auto;
   background-size:100% 100%;
