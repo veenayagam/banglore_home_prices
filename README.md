@@ -3,7 +3,7 @@
 * Created a tool that predict house pricing in Bangalore to help buyer to know estimate house price which could be useful for budgeting and negotiation.
 * Used Bengaluru House price data datasets from Kaggle.(below kaggle link)
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
+* Built a client facing webpage using flask and heroku 
 * Bangalore Home Price Webpage: https://banglorehomeprices.herokuapp.com/
 
 ## Code and Resources Used 
