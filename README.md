@@ -4,7 +4,7 @@
 * Used Bengaluru House price data datasets from Kaggle.(below kaggle link)
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing webpage using flask and heroku 
-* Bangalore Home Price Webpage: https://banglorehomeprices.herokuapp.com/
+* Bangalore Home Price Webpage: https://bangalorehomeprices.herokuapp.com/
 
 ## Code and Resources Used 
 **Python Version:** 3.9  
