@@ -15,15 +15,13 @@
 ## Data Collection
 In the project, the dateset were collected from Kaggle (above Kaggle link).
 
-## Data Cleaning
+## Exploratory Data Analysis
 After the data has been collected, we need to clean it up before using in the models. I cleaned and changed variables as follows:
 
 *	Drop features that are not required
 *	Remove NA values
 *	Split the integer from size column and insert the integer to bhk (Bedrooms Hall Kitchen)
 *	Convert Total sqft range values to average of min and max values
-
-## Exploratory Data Analysis
 *	I analysed which dimension is categorical variable and apply dimensionality reduction technique to reduce number of locations
 *   Use One Hot Encoding to transform categorical variables into dummy variables
 *	Outlier Removal Using Business Logic
