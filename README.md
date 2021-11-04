@@ -15,7 +15,7 @@
 ## Data Collection
 In the project, the dataset were collected from Kaggle.
 
-## Exploratory Data Analysis
+## Feature Engineering
 After the data has been collected, we need to clean it up before using in the models. I cleaned and changed variables as follows:
 
 *	Drop features that are not required
