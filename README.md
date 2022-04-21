@@ -1,8 +1,8 @@
 # Prediction of Bangalore House Pricing
 # Project Overview 
-* Created a tool that predict house pricing in Bangalore to help buyer to know estimate house price which could be useful for budgeting and negotiation.
+* Created a tool that predicts house pricing in Bangalore to help buyers to know estimate house prices which could be useful for budgeting and negotiation.
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing webpage using Flask and Heroku.
+* Built a client-facing webpage using Flask and Heroku.
 * Bangalore Home Price Webpage can be accessed [here](https://bangalorehomeprices.herokuapp.com/).
 
 ## Code and Resources Used 
@@ -12,16 +12,16 @@
 **Kaggle Dataset:** https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 ## Data Collection
-For the project, the dataset were collected from Kaggle.
+For the project, the dataset was collected from Kaggle.
 
 ## Feature Engineering
-After the data has been collected, it undergoes cleaning before using in the models. The data has been cleaned and changed variables as follows:
+After the data has been collected, it undergoes cleaning before using in the models. The data has been cleaned and changed variables were as follows:
 
 *	Drop features that are not required
 *	Remove NA values
 *	Split the integer from size column and insert the integer to bhk (Bedrooms Hall Kitchen)
-*	Convert Total sqft range values to average of min and max values
-*	Analysed which dimension is categorical variable and apply dimensionality reduction technique to reduce number of locations
+*	Convert Total sqft range values to an average of min and max values
+*	Analysed which dimension is categorical variable and apply dimensionality reduction technique to reduce the number of locations
 * Use One Hot Encoding to transform categorical variables into dummy variables
 *	Outlier Removal Using Business Logic
 
@@ -33,7 +33,7 @@ Before and after outlier removal: Hebbal
 
 
 ## Model Building 
-The data has been splited into train size of 80% and test size of 20% respectively.  
+The data has been split into train size of 80% and test size of 20% respectively.  
 
 Three different models have been implemented and evaluated with different parameters.
 Below are the different models:
@@ -49,5 +49,4 @@ Model performance by using GridSearchCV:
 *	**Decision Tree Regressor**: 71%
 
 ## Model Deployment
-For this step, I built a flask app that was hosted on a Heroku cloud platform. The app takes in a list of values from a form and returns an estimated price. 
-
+For this step, the Flask app has been built and hosted on a Heroku cloud platform. The app takes in a list of values from a form and returns an estimated price.
