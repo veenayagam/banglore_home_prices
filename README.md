@@ -39,7 +39,7 @@ Three different models have been implemented and evaluated with different parame
 Below are the different models:
 *	**Linear Regression** – Used as a baseline for the model.
 *	**Lasso Regression** – Used because normalized regression like lasso would be effective for sparse data from the many categorical variables.
-*	**Decision Tree Regressor** – Again with the sparsity associated with the data, I thought that this would be a good fit. 
+*	**Decision Tree Regressor** – Used because again with the sparsity associated with the data, this model would be a good fit.
 
 ## Model Performance
 The Linear Regression far outperformed the other approaches on the test and validation sets.
