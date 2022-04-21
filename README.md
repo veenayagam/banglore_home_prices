@@ -1,10 +1,9 @@
 # Prediction of Bangalore House Pricing
 # Project Overview 
 * Created a tool that predict house pricing in Bangalore to help buyer to know estimate house price which could be useful for budgeting and negotiation.
-* Used Bengaluru House price data datasets from Kaggle.(kaggle link provided below)
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing webpage using flask and heroku 
-* Bangalore Home Price Webpage: https://bangalorehomeprices.herokuapp.com/
+* Built a client facing webpage using Flask and Heroku.
+* Bangalore Home Price Webpage can be accessed [here](https://bangalorehomeprices.herokuapp.com/).
 
 ## Code and Resources Used 
 **Python Version:** 3.9  
@@ -13,16 +12,16 @@
 **Kaggle Dataset:** https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 ## Data Collection
-In the project, the dataset were collected from Kaggle.
+For the project, the dataset were collected from Kaggle.
 
 ## Feature Engineering
-After the data has been collected, we need to clean it up before using in the models. I cleaned and changed variables as follows:
+After the data has been collected, it undergoes cleaning before using in the models. The data has been cleaned and changed variables as follows:
 
 *	Drop features that are not required
 *	Remove NA values
 *	Split the integer from size column and insert the integer to bhk (Bedrooms Hall Kitchen)
 *	Convert Total sqft range values to average of min and max values
-*	I analysed which dimension is categorical variable and apply dimensionality reduction technique to reduce number of locations
+*	Analysed which dimension is categorical variable and apply dimensionality reduction technique to reduce number of locations
 * Use One Hot Encoding to transform categorical variables into dummy variables
 *	Outlier Removal Using Business Logic
 
@@ -34,12 +33,12 @@ Before and after outlier removal: Hebbal
 
 
 ## Model Building 
-I split the data into train size of 80% and test size of 20% respectively.  
+The data has been splited into train size of 80% and test size of 20% respectively.  
 
-I implemented three different models and evaluated them with different parameters.
-I tried three different models:
-*	**Multiple Linear Regression** – Baseline for the model
-*	**Lasso Regression** – Because of the sparse data from the many categorical variables, a normalized regression like lasso would be effective.
+Three different models have been implemented and evaluated with different parameters.
+Below are the different models:
+*	**Linear Regression** – Used as a baseline for the model.
+*	**Lasso Regression** – Used because normalized regression like lasso would be effective for sparse data from the many categorical variables.
 *	**Decision Tree Regressor** – Again with the sparsity associated with the data, I thought that this would be a good fit. 
 
 ## Model Performance
